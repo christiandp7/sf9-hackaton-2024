@@ -37,7 +37,7 @@
         "announcement_BBbtUL": {
           "type": "announcement",
           "settings": {
-            "text": "Welcome to our store{{ shop.metaobjects.scheduled_banner[\"cyber-monday\"].banner_name.value }}",
+            "text": "Welcome to our store{{ shop.metaobjects.scheduled_banner[\"black-friday\"].banner_name.value }}",
             "link": "",
             "image_banner": "{{ shop.metaobjects.scheduled_banner[\"black-friday\"].banner_image.value }}",
             "start_date": "{{ shop.metaobjects.scheduled_banner[\"black-friday\"].start | metafield_text }}",
