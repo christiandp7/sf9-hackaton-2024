@@ -33,11 +33,22 @@
             "start_date": "",
             "end_date": ""
           }
+        },
+        "announcement_BBbtUL": {
+          "type": "announcement",
+          "settings": {
+            "text": "Welcome to our store{{ shop.metaobjects.scheduled_banner[\"cyber-monday\"].banner_name.value }}",
+            "link": "",
+            "image_banner": "{{ shop.metaobjects.scheduled_banner[\"black-friday\"].banner_image.value }}",
+            "start_date": "{{ shop.metaobjects.scheduled_banner[\"black-friday\"].start | metafield_text }}",
+            "end_date": "{{ shop.metaobjects.scheduled_banner[\"black-friday\"].end | metafield_text }}"
+          }
         }
       },
       "block_order": [
         "announcement-bar-0",
-        "announcement_8gmamF"
+        "announcement_8gmamF",
+        "announcement_BBbtUL"
       ],
       "settings": {
         "color_scheme": "scheme-c426659d-539c-463e-b216-673800d06738",
