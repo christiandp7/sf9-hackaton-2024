@@ -11,18 +11,6 @@
   "sections": {
     "image_banner": {
       "type": "image-banner",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "",
-            "heading_size": "h0"
-          }
-        }
-      },
-      "block_order": [
-        "heading"
-      ],
       "settings": {
         "image": "{{ shop.metaobjects.scheduled_banner[\"black-friday\"].banner_image.value }}",
         "image_overlay_opacity": 0,
@@ -35,8 +23,8 @@
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": false,
         "show_text_below": false,
-        "start_date": "2024-12-12 15:20{{ shop.metaobjects.scheduled_banner[\"black-friday\"].start | metafield_text }}",
-        "end_date": "2024-12-12 15:24{{ shop.metaobjects.scheduled_banner[\"black-friday\"].end | metafield_text }}"
+        "start_date": "{{ shop.metaobjects.scheduled_banner[\"black-friday\"].start | metafield_text }}",
+        "end_date": "{{ shop.metaobjects.scheduled_banner[\"black-friday\"].end | metafield_text }}"
       }
     },
     "featured_collection": {
