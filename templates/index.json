@@ -24,7 +24,7 @@
         "heading"
       ],
       "settings": {
-        "image": "shopify://shop_images/Screenshot_2024-12-12_at_13.35.10.png",
+        "image": "{{ shop.metaobjects.scheduled_banner[\"black-friday\"].banner_image.value }}",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "bottom-center",
@@ -35,8 +35,8 @@
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": false,
         "show_text_below": false,
-        "start_date": "2024-12-12 15:20",
-        "end_date": "2024-12-12 15:24"
+        "start_date": "2024-12-12 15:20{{ shop.metaobjects.scheduled_banner[\"black-friday\"].start | metafield_text }}",
+        "end_date": "2024-12-12 15:24{{ shop.metaobjects.scheduled_banner[\"black-friday\"].end | metafield_text }}"
       }
     },
     "featured_collection": {

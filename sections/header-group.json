@@ -23,32 +23,10 @@
             "start_date": "",
             "end_date": ""
           }
-        },
-        "announcement_8gmamF": {
-          "type": "announcement",
-          "settings": {
-            "text": "Welcome to our store",
-            "link": "",
-            "image_banner": "shopify://shop_images/Red_and_Black_Modern_Black_Friday_Banner_1_1.png",
-            "start_date": "2024-12-12 14:30",
-            "end_date": "2024-12-12 16:00"
-          }
-        },
-        "announcement_BBbtUL": {
-          "type": "announcement",
-          "settings": {
-            "text": "Welcome to our store{{ shop.metaobjects.scheduled_banner[\"black-friday\"].banner_name.value }}",
-            "link": "",
-            "image_banner": "{{ shop.metaobjects.scheduled_banner[\"black-friday\"].banner_image.value }}",
-            "start_date": "{{ shop.metaobjects.scheduled_banner[\"black-friday\"].start | metafield_text }}",
-            "end_date": "{{ shop.metaobjects.scheduled_banner[\"black-friday\"].end | metafield_text }}"
-          }
         }
       },
       "block_order": [
-        "announcement-bar-0",
-        "announcement_8gmamF",
-        "announcement_BBbtUL"
+        "announcement-bar-0"
       ],
       "settings": {
         "color_scheme": "scheme-1",
