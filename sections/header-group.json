@@ -16,25 +16,35 @@
       "blocks": {
         "announcement-bar-0": {
           "type": "announcement",
-          "disabled": true,
           "settings": {
-            "text": "Black Friday banner",
-            "link": "shopify://collections/all",
+            "text": "Welcome to our store",
+            "link": "",
             "image_banner": "shopify://shop_images/Red_and_Black_Modern_Black_Friday_Banner_2.png",
+            "start_date": "",
+            "end_date": ""
+          }
+        },
+        "announcement_8gmamF": {
+          "type": "announcement",
+          "settings": {
+            "text": "Welcome to our store",
+            "link": "",
+            "image_banner": "shopify://shop_images/Red_and_Black_Modern_Black_Friday_Banner_4_x_2_cm.png",
             "start_date": "",
             "end_date": ""
           }
         }
       },
       "block_order": [
-        "announcement-bar-0"
+        "announcement-bar-0",
+        "announcement_8gmamF"
       ],
       "settings": {
-        "color_scheme": "scheme-1",
+        "color_scheme": "scheme-c426659d-539c-463e-b216-673800d06738",
         "show_line_separator": true,
         "show_social": false,
-        "auto_rotate": true,
-        "full_width": true,
+        "auto_rotate": false,
+        "full_width": false,
         "change_slides_speed": 5,
         "enable_country_selector": false,
         "enable_language_selector": false
