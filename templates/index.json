@@ -27,6 +27,24 @@
         "end_date": "{{ shop.metaobjects.scheduled_banner[\"black-friday\"].end | metafield_text }}"
       }
     },
+    "image_banner_QdqAHH": {
+      "type": "image-banner",
+      "settings": {
+        "image": "{{ shop.metaobjects.scheduled_banner[\"cyber-monday\"].banner_image.value }}",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "bottom-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-3",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false,
+        "start_date": "{{ shop.metaobjects.scheduled_banner[\"cyber-monday\"].start | metafield_text }}",
+        "end_date": "{{ shop.metaobjects.scheduled_banner[\"cyber-monday\"].end | metafield_text }}"
+      }
+    },
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
@@ -76,6 +94,7 @@
   },
   "order": [
     "image_banner",
+    "image_banner_QdqAHH",
     "featured_collection",
     "image_banner_r9deeA"
   ]
