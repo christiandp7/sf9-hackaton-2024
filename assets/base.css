@@ -2257,6 +2257,15 @@ input[type='checkbox'] {
   min-height: 3.8rem;
 }
 
+.slider-buttons.full-width .slider-button {
+  position: absolute;
+  top: 50%;
+  z-index: 1;
+}
+
+.slider-buttons.full-width .slider-button--prev { left: 20px; }
+.slider-buttons.full-width .slider-button--next { right: 20px; }
+
 .announcement-bar-slider--fade-in-next .announcement-bar__message,
 .announcement-bar-slider--fade-in-previous .announcement-bar__message,
 .announcement-bar-slider--fade-out-next .announcement-bar__message,
