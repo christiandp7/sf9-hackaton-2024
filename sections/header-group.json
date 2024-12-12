@@ -17,35 +17,16 @@
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
-            "text": "Announcement 1",
-            "link": "",
-            "start_date": "",
-            "end_date": ""
-          }
-        },
-        "announcement_NbfGTx": {
-          "type": "announcement",
-          "settings": {
-            "text": "Announcement 2",
-            "link": "",
-            "start_date": "",
-            "end_date": ""
-          }
-        },
-        "announcement_MftTg8": {
-          "type": "announcement",
-          "settings": {
             "text": "Welcome to our store",
             "link": "",
+            "image_banner": "shopify://shop_images/Red_and_Black_Modern_Black_Friday_Banner_2.png",
             "start_date": "",
             "end_date": ""
           }
         }
       },
       "block_order": [
-        "announcement-bar-0",
-        "announcement_NbfGTx",
-        "announcement_MftTg8"
+        "announcement-bar-0"
       ],
       "settings": {
         "color_scheme": "scheme-c426659d-539c-463e-b216-673800d06738",
