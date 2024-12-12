@@ -17,8 +17,8 @@
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
-            "text": "Welcome to our store",
-            "link": "",
+            "text": "Black Friday banner",
+            "link": "shopify://collections/all",
             "image_banner": "shopify://shop_images/Red_and_Black_Modern_Black_Friday_Banner_2.png",
             "start_date": "",
             "end_date": ""
@@ -51,7 +51,7 @@
         "announcement_BBbtUL"
       ],
       "settings": {
-        "color_scheme": "scheme-c426659d-539c-463e-b216-673800d06738",
+        "color_scheme": "scheme-1",
         "show_line_separator": true,
         "show_social": false,
         "auto_rotate": true,
