@@ -17,19 +17,42 @@
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
+            "text": "Announcement 1",
+            "link": "",
+            "start_date": "",
+            "end_date": ""
+          }
+        },
+        "announcement_NbfGTx": {
+          "type": "announcement",
+          "settings": {
+            "text": "Announcement 2",
+            "link": "",
+            "start_date": "",
+            "end_date": ""
+          }
+        },
+        "announcement_MftTg8": {
+          "type": "announcement",
+          "settings": {
             "text": "Welcome to our store",
-            "link": ""
+            "link": "",
+            "start_date": "",
+            "end_date": ""
           }
         }
       },
       "block_order": [
-        "announcement-bar-0"
+        "announcement-bar-0",
+        "announcement_NbfGTx",
+        "announcement_MftTg8"
       ],
       "settings": {
         "color_scheme": "scheme-c426659d-539c-463e-b216-673800d06738",
         "show_line_separator": true,
         "show_social": false,
         "auto_rotate": false,
+        "full_width": true,
         "change_slides_speed": 5,
         "enable_country_selector": false,
         "enable_language_selector": false
