@@ -18,28 +18,16 @@
             "heading": "",
             "heading_size": "h0"
           }
-        },
-        "button": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "",
-            "button_link_1": "shopify://products/royal-canin-mini-ageing-tin",
-            "button_style_secondary_1": true,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": true
-          }
         }
       },
       "block_order": [
-        "heading",
-        "button"
+        "heading"
       ],
       "settings": {
         "image": "shopify://shop_images/Screenshot_2024-12-12_at_13.35.10.png",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
-        "desktop_content_position": "bottom-right",
+        "desktop_content_position": "bottom-center",
         "show_text_box": false,
         "desktop_content_alignment": "center",
         "color_scheme": "scheme-3",
