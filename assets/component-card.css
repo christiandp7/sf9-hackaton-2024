@@ -270,6 +270,14 @@
   }
 }
 
+.promotion-sale-badge {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  padding: 0 8px;
+  z-index: 1;
+}
+
 .card__badge {
   align-self: flex-end;
   grid-row-start: 3;
