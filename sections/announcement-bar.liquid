@@ -20,6 +20,21 @@
 
 {%- assign time_now = "now" | date: "%s" | times: 1 -%}
 
+{% liquid
+  assign block_size = 0
+
+  for block in section.blocks
+    assign start_time = block.settings.start_date | date: '%s' | times: 1
+    assign end_time = block.settings.end_date | date: '%s' | times: 1
+
+    if time_now >= start_time or block.settings.start_date == blank
+      if time_now <= end_time or block.settings.end_date == blank
+        assign block_size = block_size | plus: 1
+      endif
+    endif
+  endfor
+%}
+
 <div
   class="utility-bar color-{{ section.settings.color_scheme }} gradient{% if section.settings.show_line_separator and section.blocks.size > 0 %} utility-bar--bottom-border{% elsif section.settings.show_line_separator and section.settings.show_social and social_icons%} utility-bar--bottom-border-social-only{% endif %}{% if section.settings.enable_country_selector or section.settings.enable_language_selector %} header-localization{% endif %}"
   {{ block.shopify_attributes }}
@@ -28,7 +43,7 @@
     {%- if section.settings.show_social and social_icons -%}
       {%- render 'social-icons' -%}
     {%- endif -%}
-    {%- if section.blocks.size == 1 -%}
+    {%- if block_size == 1 -%}
 
       {% assign start_time = section.blocks.first.settings.start_date | date: '%s' | times: 1 %}
       {% assign end_time = section.blocks.first.settings.end_date | date: '%s' | times: 1 %}
@@ -65,7 +80,7 @@
         </div>
       {% endif %}
       {% endif %}
-    {%- elsif section.blocks.size > 1 -%}
+    {%- elsif block_size > 1 -%}
       <slideshow-component
         class="announcement-bar"
         role="region"
