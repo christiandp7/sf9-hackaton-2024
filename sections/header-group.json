@@ -14,16 +14,6 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
-        "announcement-bar-0": {
-          "type": "announcement",
-          "settings": {
-            "text": "{{ shop.metaobjects.scheduled_banner[\"black-friday\"].banner_name.value }}",
-            "link": "",
-            "image_banner": "shopify://shop_images/Red_and_Black_Modern_Black_Friday_Banner_630.8_x_25.4_mm.png",
-            "start_date": "{{ shop.metaobjects.scheduled_banner[\"black-friday\"].start | metafield_text }}",
-            "end_date": "{{ shop.metaobjects.scheduled_banner[\"black-friday\"].end | metafield_text }}"
-          }
-        },
         "announcement_8gmamF": {
           "type": "announcement",
           "settings": {
@@ -33,11 +23,21 @@
             "start_date": "{{ shop.metaobjects.scheduled_banner[\"cyber-monday\"].start | metafield_text }}",
             "end_date": "{{ shop.metaobjects.scheduled_banner[\"cyber-monday\"].end | metafield_text }}"
           }
+        },
+        "announcement-bar-0": {
+          "type": "announcement",
+          "settings": {
+            "text": "{{ shop.metaobjects.scheduled_banner[\"black-friday\"].banner_name.value }}",
+            "link": "",
+            "image_banner": "shopify://shop_images/Red_and_Black_Modern_Black_Friday_Banner_630.8_x_25.4_mm.png",
+            "start_date": "{{ shop.metaobjects.scheduled_banner[\"black-friday\"].start | metafield_text }}",
+            "end_date": "{{ shop.metaobjects.scheduled_banner[\"black-friday\"].end | metafield_text }}"
+          }
         }
       },
       "block_order": [
-        "announcement-bar-0",
-        "announcement_8gmamF"
+        "announcement_8gmamF",
+        "announcement-bar-0"
       ],
       "custom_css": [],
       "settings": {
