@@ -16,11 +16,10 @@
       "blocks": {
         "announcement-bar-0": {
           "type": "announcement",
-          "disabled": true,
           "settings": {
             "text": "Welcome to our store",
             "link": "",
-            "image_banner": "shopify://shop_images/Red_and_Black_Modern_Black_Friday_Banner_2.png",
+            "image_banner": "shopify://shop_images/Red_and_Black_Modern_Black_Friday_Banner_630.8_x_25.4_mm.png",
             "start_date": "",
             "end_date": ""
           }
