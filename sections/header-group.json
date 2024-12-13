@@ -30,7 +30,7 @@
           "settings": {
             "text": "Welcome to our store",
             "link": "",
-            "image_banner": "shopify://shop_images/Red_and_Black_Modern_Black_Friday_Banner_530.8_x_15.4_mm_530.8_x_15.4_mm_630.8_x_25.4_mm.png",
+            "image_banner": "shopify://shop_images/Red_and_Black_Modern_Black_Friday_Banner_530.8_x_15.4_mm_530.8_x_15.4_mm_630.8_x_25.4_mm_1.png",
             "start_date": "",
             "end_date": ""
           }
@@ -42,7 +42,7 @@
       ],
       "custom_css": [],
       "settings": {
-        "color_scheme": "scheme-c426659d-539c-463e-b216-673800d06738",
+        "color_scheme": "scheme-4",
         "show_line_separator": false,
         "show_social": false,
         "auto_rotate": false,
