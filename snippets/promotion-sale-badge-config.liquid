@@ -1,10 +1,10 @@
 {%- assign time_now = "now" | date: "%s" | times: 1 -%}
 
-{% comment %} {% if shop.metaobjects.scheduled_label.entries.size > 0 %} {% endcomment %}
+{% comment %} {% if shop.metaobjects.scheduled_banner.entries.size > 0 %} {% endcomment %}
 
-  {% for scheduled_label in shop.metaobjects.scheduled_label.values %}
-    {% assign start_date = scheduled_label.start_date.value %}
-    {% assign end_date = scheduled_label.end_date.value %}
+  {% for scheduled_banner in shop.metaobjects.scheduled_banner.values %}
+    {% assign start_date = scheduled_banner.start.value %}
+    {% assign end_date = scheduled_banner.end.value %}
 
     {% assign start_time = start_date | date: '%s' | times: 1 %}
     {% assign end_time = end_date | date: '%s' | times: 1 %}
@@ -12,13 +12,11 @@
     {% if time_now >= start_time or start_date == blank %}
     {% if time_now <= end_time or end_date == blank %}
 
-      {{ scheduled_label.label_background_colour.value }}
-
       <style>
         .promotion-sale-badge {
           display: block;
-          background-color: {{ scheduled_label.label_background_colour.value }};
-          color: {{ scheduled_label.label_text_colour.value }};
+          background-color: {{ scheduled_banner.label_colour.value }};
+          color: {{ scheduled_banner.label_text_colour.value }};
         }
       </style>
 
@@ -26,7 +24,7 @@
         document.addEventListener('DOMContentLoaded', () => {
           const badges = document.getElementsByClassName('promotion-sale-badge');
           Array.from(badges).forEach(badge => {
-            badge.textContent = "{{ scheduled_label.label_text }}"; // Ensure this is rendered server-side
+            badge.textContent = "{{ scheduled_banner.label_text }}";
           });
         });
       </script>
