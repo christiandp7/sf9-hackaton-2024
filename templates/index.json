@@ -30,7 +30,7 @@
     "image_banner_QdqAHH": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify://shop_images/Red_and_Black_Modern_Black_Friday_Banner_1_1.png",
+        "image": "{{ shop.metaobjects.scheduled_banner[\"cyber-monday\"].banner_image.value }}",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "bottom-center",
