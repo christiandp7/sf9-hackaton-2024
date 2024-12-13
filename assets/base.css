@@ -2247,6 +2247,8 @@ input[type='checkbox'] {
 .announcement-bar__banner {
   width: 100%;
   height: auto;
+  min-height: 60px;
+    object-fit: cover;
 }
 
 .announcement-bar__message {
