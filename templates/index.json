@@ -23,8 +23,8 @@
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": false,
         "show_text_below": false,
-        "start_date": "{{ shop.metaobjects.scheduled_banner[\"black-friday\"].start | metafield_text }}",
-        "end_date": "{{ shop.metaobjects.scheduled_banner[\"black-friday\"].end | metafield_text }}"
+        "start_date": "2025-05-13 00:00",
+        "end_date": "2025-05-14 15:15"
       }
     },
     "image_banner_QdqAHH": {
@@ -41,8 +41,8 @@
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": false,
         "show_text_below": false,
-        "start_date": "{{ shop.metaobjects.scheduled_banner[\"cyber-monday\"].start | metafield_text }}",
-        "end_date": "{{ shop.metaobjects.scheduled_banner[\"cyber-monday\"].end | metafield_text }}"
+        "start_date": "2025-05-14 15:16",
+        "end_date": "2025-05-14 18:00"
       }
     },
     "featured_collection": {
