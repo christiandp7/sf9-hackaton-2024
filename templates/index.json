@@ -9,40 +9,104 @@
  */
 {
   "sections": {
-    "image_banner": {
+    "image_banner_UnmzzJ": {
       "type": "image-banner",
+      "blocks": {
+        "heading_4nV77N": {
+          "type": "heading",
+          "settings": {
+            "heading": "May Banner",
+            "heading_size": "h1"
+          }
+        },
+        "text_bncXPq": {
+          "type": "text",
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "buttons_gGqE4y": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_4nV77N",
+        "text_bncXPq",
+        "buttons_gGqE4y"
+      ],
+      "name": "t:sections.image-banner.presets.name",
       "settings": {
-        "image": "{{ shop.metaobjects.scheduled_banner[\"black-friday\"].banner_image.value }}",
         "image_overlay_opacity": 0,
-        "image_height": "adapt",
-        "desktop_content_position": "bottom-center",
-        "show_text_box": false,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
         "desktop_content_alignment": "center",
-        "color_scheme": "scheme-3",
+        "color_scheme": "",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
-        "show_text_below": false,
-        "start_date": "2025-05-13 00:00",
-        "end_date": "2025-05-14 15:18"
+        "stack_images_on_mobile": true,
+        "show_text_below": true,
+        "start_date": "2025-05-01 00:00",
+        "end_date": "2025-05-31 11:59"
       }
     },
-    "image_banner_QdqAHH": {
+    "image_banner_txnarx": {
       "type": "image-banner",
+      "blocks": {
+        "heading_ADbBGC": {
+          "type": "heading",
+          "settings": {
+            "heading": "June Banner",
+            "heading_size": "h1"
+          }
+        },
+        "text_rhEjMT": {
+          "type": "text",
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "buttons_zwk8aa": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_ADbBGC",
+        "text_rhEjMT",
+        "buttons_zwk8aa"
+      ],
+      "name": "t:sections.image-banner.presets.name",
       "settings": {
-        "image": "{{ shop.metaobjects.scheduled_banner[\"cyber-monday\"].banner_image.value }}",
         "image_overlay_opacity": 0,
-        "image_height": "adapt",
-        "desktop_content_position": "bottom-center",
-        "show_text_box": false,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
         "desktop_content_alignment": "center",
-        "color_scheme": "scheme-3",
+        "color_scheme": "",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
-        "show_text_below": false,
-        "start_date": "2025-05-14 15:18",
-        "end_date": "2025-05-14 18:00"
+        "stack_images_on_mobile": true,
+        "show_text_below": true,
+        "start_date": "2025-06-01 00:00",
+        "end_date": "2025-06-30 23:59"
       }
     },
     "featured_collection": {
@@ -133,7 +197,6 @@
         "slide_R4UFhA",
         "slide_TMepNh"
       ],
-      "name": "t:sections.slideshow.presets.name",
       "settings": {
         "layout": "full_bleed",
         "slide_height": "medium",
@@ -147,8 +210,8 @@
     }
   },
   "order": [
-    "image_banner",
-    "image_banner_QdqAHH",
+    "image_banner_UnmzzJ",
+    "image_banner_txnarx",
     "featured_collection",
     "image_banner_r9deeA",
     "slideshow_yhnrYT"

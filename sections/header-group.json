@@ -20,8 +20,8 @@
             "text": "Welcome to our store",
             "link": "",
             "image_banner": "shopify://shop_images/Red_and_Black_Modern_Black_Friday_Banner_530.8_x_15.4_mm_530.8_x_15.4_mm_630.8_x_25.4_mm_1.png",
-            "start_date": "{{ metaobjects.scheduled_banner[\"cyber-monday\"].start | metafield_text }}",
-            "end_date": "{{ metaobjects.scheduled_banner[\"cyber-monday\"].end | metafield_text }}"
+            "start_date": "",
+            "end_date": ""
           }
         },
         "announcement-bar-0": {
